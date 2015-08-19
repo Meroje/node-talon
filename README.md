@@ -1,0 +1,1 @@
+An example of using [talon](https://github.com/mailgun/talon) signature extractor from nodejs over a [zerorpc](http://www.zerorpc.io/) channel.

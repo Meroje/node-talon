@@ -1,0 +1,18 @@
+web:
+  build: ./web
+  ports:
+    - 80:80
+  links:
+    - talon
+  environment:
+    - PORT=80
+  expose:
+    - 80
+
+talon:
+  build: ./talon
+  environment:
+    - PORT=4242
+  command: python app.py
+  expose:
+    - 4242
