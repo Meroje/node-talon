@@ -1,1 +1,1 @@
-FROM python:2-onbuild@sha256:9a256daabb06fbd57dfe69fb9d5f4734b015bc939dfcb32b2d0a2d91f172388f
+FROM python:2-onbuild@sha256:2342255de46b4e642607ce5382833d20f3fbf0e43a41cd67fa3a0f3d0c6e5857
