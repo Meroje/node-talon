@@ -1,2 +1,2 @@
 talon==1.4.4
-zerorpc==0.6.1
+zerorpc==0.6.3
