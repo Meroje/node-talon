@@ -1,4 +1,4 @@
-FROM node:0.12@sha256:02e8e9903c8d974e8874d0144413d398a41d62f54bafec4d2cf3ac2a8501dd28
+FROM node:16.11@sha256:d6a8cd069ab740759394a9338dc4bc4b9b32b15209cccd0c7faa32d438b1076e
 
 RUN apt-get update && apt-get install -yy libzmq3-dev
 
